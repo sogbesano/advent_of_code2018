@@ -1,0 +1,10 @@
+[package]
+name = "advent_of_code"
+version = "0.1.0"
+authors = ["olu sogbesan <sogbesano@gmail.com>"]
+
+[dependencies]
+
+[[bin]]
+name = "aoc"
+path = "src/day_one.rs"
