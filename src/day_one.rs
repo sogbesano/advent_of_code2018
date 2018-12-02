@@ -23,9 +23,6 @@ fn main() {
                                      return number;
                                  }
                                  ).collect();
-  for i in &vec_nums {
-    println!("{}", i);
-  }
   let sum = vec_nums.iter().fold(0, |a, &b| a + b);
   println!("the sum is {}", sum);
 }
